@@ -92,6 +92,62 @@ h2 {
   transform: scale(1.03);
 }
 
+.feedback-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #2a2736;
+  border-radius: 10px;
+}
+
+.feedback-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.feedback-button {
+  padding: 12px 40px;
+  background-color: #3a32ff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.feedback-button:hover {
+  background-color: #5c52ff;
+  transform: scale(1.03);
+}
+
 .projects-body {
   margin: 0;
   padding: 0;

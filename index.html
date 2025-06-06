@@ -7,7 +7,6 @@
   <meta name="author" content="PERSONALWEB"/>
   <title>PERSONALWEBSITE</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <div class="container">
@@ -30,7 +29,25 @@
     </div>
     <div>
       <a href="projects.html" class="project-button">View my projects</a>  
+    <div class="feedback-section">
+      <h3 class="feedback-heading">Leave Your Feedback</h3>
+      <form id="feedback-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="feedback">Your Feedback</label>
+          <textarea id="feedback" name="feedback" rows="5" placeholder="Share your thoughts..." required></textarea>
+        </div>
+        <button type="submit" class="feedback-button">Submit Feedback</button>
+      </form>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
